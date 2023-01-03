@@ -98,7 +98,7 @@ async def callback_handler(c: Client, cb: CallbackQuery):
     elif cb.data == "document":
         UPLOAD_AS_DOC.update({f"{cb.from_user.id}": True})
         await cb.message.edit(
-            text="Do you want to rename? Default file name is **[@yashoswalyo]_merged.mkv**",
+            text="Do you want to rename? Default file name is **[@fazanul123]_merged.mkv**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
